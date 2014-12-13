@@ -1,7 +1,7 @@
 IVPORT
 ======
 
-Raspberry Pi Camera Module Multiplexer from [Ivmech Mechatronics](http://www.ivmech.com)
+Raspberry Pi Camera Module Multiplexer by [Ivmech Mechatronics](http://www.ivmech.com)
 
 ### See full manual from [here](https://raw.githubusercontent.com/ivmech/ivport/master/docs/ivport_manual.pdf).
 ### See wiki pages from  [here](https://github.com/ivmech/ivport/wiki).
