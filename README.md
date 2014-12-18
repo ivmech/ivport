@@ -5,6 +5,7 @@ Raspberry Pi Camera Module Multiplexer by [Ivmech Mechatronics](http://www.ivmec
 
 ### See full manual from [here](https://raw.githubusercontent.com/ivmech/ivport/master/docs/ivport_manual.pdf).
 ### See wiki pages from  [here](https://github.com/ivmech/ivport/wiki).
+### See important fix from [here](https://github.com/ivmech/ivport/wiki/Important-Fix).
 
 ### Also you can order from [here](http://www.ivmech.com/magaza/en/ivmech-m-2/ivport-raspberry-pi-camera-module-multiplexer-p-90).
 
