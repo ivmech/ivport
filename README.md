@@ -13,5 +13,9 @@ IVPORT which is the first Raspberry Pi (also Raspberry Pi B+ and ODROID-W compat
 
 ![alt ivport](https://raw.githubusercontent.com/ivmech/ivport/master/images/ivport_02.jpg)
 
-4 Camera Modules was mounted in 3D printed camera case
+### Video of manual switching stream with 4 camera modules
+
+[![IVPort Manual Video Switching](http://img.youtube.com/vi/bzw80AsX4OM/0.jpg)](http://www.youtube.com/watch?v=bzw80AsX4OM)
+
+4 Camera Modules was mounted in 3D printed camera case for video above
 ![alt ivport](https://raw.githubusercontent.com/ivmech/ivport/master/images/ivport_04.jpg)
