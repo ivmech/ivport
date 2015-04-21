@@ -11,7 +11,7 @@ IVPORT which is the first Raspberry Pi (also Raspberry Pi A,A+,B+ and Raspberry 
 
 ### Updated Notes
 
-The closest approach to simultaneous capturing at **640x480 resolution with 7 fps** each camera connected to Ivport Camera Multiplexer (4 camera boards were connected.) by utilizing Raspberry Pi's video-capture capabilities with a JPEG encoder. See more details [here](https://github.com/ivmech/ivport/wiki/Capture-Sequence).
+The closest approach to **simultaneous capturing** at **640x480 resolution with 7 fps** each camera connected to Ivport Camera Multiplexer (4 camera boards were connected.) by utilizing Raspberry Pi's video-capture capabilities with a JPEG encoder. See more details [here](https://github.com/ivmech/ivport/wiki/Capture-Sequence).
 
 ### IVPORT is available at [HERE](http://www.ivmech.com/magaza/en/ivmech-m-2/ivport-raspberry-pi-camera-module-multiplexer-p-90).
 
