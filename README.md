@@ -5,7 +5,7 @@ Raspberry Pi Camera Module Multiplexer by [Ivmech Mechatronics](http://www.ivmec
 
 IVPORT which is the first Raspberry Pi (also Raspberry Pi A,A+,B+ and Raspberry Pi 2 fully compatible) Camera Module multiplexer is designed to make possible connecting more than one camera module to single CSI camera port on Raspberry Pi. Multiplexing can be controlled by 3 pins for 4 camera modules, 5 pins for 8 camera modules and 9 pins for **maximum up to 16 camera modules** with using GPIO.
 
-IVPORT have been already shipped to 20 countries and 6 universities with 50 users.Revision 1 had some unintended design failures and manufacturing mistakes therefore enhancements and fixes were added to Revision 2 board. Please feel free to contact us if there is any issue on Revision 1 ivport boards.
+IVPORT have been already shipped to **20 countries** and **6 universities** with over **50 users**.
 
 ### See full manual from [here](https://raw.githubusercontent.com/ivmech/ivport/master/docs/ivport_manual.pdf).
 ### See wiki pages from  [here](https://github.com/ivmech/ivport/wiki).
@@ -18,7 +18,7 @@ The closest approach to **simultaneous capturing** at **640x480 resolution with 
 ### IVPORT is available at [HERE](http://www.ivmech.com/magaza/en/ivmech-m-2/ivport-raspberry-pi-camera-module-multiplexer-p-90).
 ![alt ivport](https://raw.githubusercontent.com/ivmech/ivport/master/images/ivport_rev2_01.jpg)
 **Revision 2 Boards are available with better compatibility.**
-
+Revision 1 had some unintended design failures and manufacturing mistakes therefore enhancements and fixes were added to Revision 2 board. Please feel free to contact us if there is any issue on Revision 1 ivport boards.
 
 ![alt ivport](https://raw.githubusercontent.com/ivmech/ivport/master/images/ivport_02.jpg)
 
