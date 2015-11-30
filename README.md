@@ -14,7 +14,7 @@ IVPort has already been shipped to **40 countries** and **20 universities** with
 ### Updated Notes
 
 ### [Youtube video](https://www.youtube.com/watch?v=w4JZN7Y0d2o) of stereo recording with 2 camera modules
-[![IVPort Stereo Recording](http://www.youtube.com/watch?v=w4JZN7Y0d2o/0.jpg)](https://www.youtube.com/watch?v=w4JZN7Y0d2o)
+[![IVPort Stereo Recording](http://img.youtube.com/vi/w4JZN7Y0d2o/0.jpg)](https://www.youtube.com/watch?v=w4JZN7Y0d2o)
 
 The closest approach to **simultaneous capturing** at **640x480 resolution with 7 fps** each camera connected to Ivport Camera Multiplexer (4 camera boards were connected.) by utilizing Raspberry Pi's video-capture capabilities with a JPEG encoder. See more details [here](https://github.com/ivmech/ivport/wiki/Capture-Sequence).
 
