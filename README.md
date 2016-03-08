@@ -10,6 +10,7 @@ IVPort has already been shipped to **55 countries** and **30 universities** with
 IVPort can be used for stereo vision with stereo camera.
 
 ### See full manual from [here](https://raw.githubusercontent.com/ivmech/ivport/master/docs/ivport_manual.pdf).
+### See ivport dual manual from [here](https://raw.githubusercontent.com/ivmech/ivport/master/docs/ivport_dual_manual.pdf).
 ### See wiki pages from  [here](https://github.com/ivmech/ivport/wiki).
 ### See _IMPORTANT FIX_ from [here](https://github.com/ivmech/ivport/wiki/Important-Fix).
 
@@ -25,6 +26,10 @@ The closest approach to **simultaneous capturing** at **640x480 resolution with 
 **Revision 3 Boards are available with better compatibility and image quality.**
 Revision 3 board has differential pair signals' better routing therefore image quality improvement.
 Revision 1 had some unintended design failures and manufacturing mistakes therefore enhancements and fixes were added to Revision 2 board. Please feel free to contact us if there is any issue on Revision 1 ivport boards.
+
+### IVPORT DUAL is available at [HERE](http://www.ivmech.com/magaza/en/development-modules-c-4/ivport-dual-raspberry-pi-camera-module-multiplexer-p-104).
+**IVPORT DUAL is Lite version of IVPORT for only 2 Camera Modules**
+![alt ivport](https://raw.githubusercontent.com/ivmech/ivport/master/images/ivport_dual_01.jpg)
 
 ![alt ivport](https://raw.githubusercontent.com/ivmech/ivport/master/images/ivport_history_01.jpg)
 
