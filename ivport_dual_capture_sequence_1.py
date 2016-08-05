@@ -34,9 +34,17 @@ import RPi.GPIO as gp
 gp.setwarnings(False)
 gp.setmode(gp.BOARD)
 
-gp.setup(11, gp.OUT)
+JUMPER_SETTING = 1
 
-gp.output(11, False)
+# Jumper Pin assignment
+IVJP = {'A': (11, 12), 'C': (21, 22), 'B': (15, 16), 'D': (23, 24)}
+pins = list(reduce(lambda x,y: x+y, IVJP.values()))
+pins.sort()
+DIVJP = {i+1 : x for i,x in enumerate(pins)}
+fPin = DIVJP[JUMPER_SETTING]
+
+gp.setup(fPin, gp.OUT)
+gp.output(fPin, False)
 
 frames = 10
 
@@ -47,11 +55,11 @@ def cam_change():
     gp.setmode(gp.BOARD)
     if cam == 1:
         # CAM 1 for 1 Jumper Setting
-        gp.output(11, False)
+        gp.output(fPin, False)
 
     elif cam == 2:
         # CAM 2 for 1 Jumper Setting
-        gp.output(11, True)
+        gp.output(fPin, True)
 
     cam += 1
     if cam > 2:

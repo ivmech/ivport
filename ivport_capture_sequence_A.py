@@ -34,13 +34,23 @@ import RPi.GPIO as gp
 gp.setwarnings(False)
 gp.setmode(gp.BOARD)
 
-gp.setup(7, gp.OUT)
-gp.setup(11, gp.OUT)
-gp.setup(12, gp.OUT)
+JUMPER_SETTING = 'A'
 
-gp.output(7, False)
-gp.output(11, False)
-gp.output(12, True)
+# Jumper Pin assignment
+IVJP = {'A': (11, 12), 'C': (21, 22), 'B': (15, 16), 'D': (23, 24)}
+pins = list(reduce(lambda x,y: x+y, IVJP.values()))
+pins.sort()
+DIVJP = {i+1 : x for i,x in enumerate(pins)}
+f1Pin, f2Pin = IVJP[JUMPER_SETTING]
+ePin = 7
+
+gp.setup(ePin, gp.OUT)
+gp.setup(f1Pin, gp.OUT)
+gp.setup(f2Pin, gp.OUT)
+
+gp.output(ePin, False)
+gp.output(f1Pin, False)
+gp.output(f2Pin, True)
 
 frames = 90
 
@@ -51,27 +61,27 @@ def cam_change():
     gp.setmode(gp.BOARD)
     if cam == 1:
         # CAM 1 for A Jumper Setting
-        gp.output(7, False)
-        gp.output(11, False)
-        gp.output(12, True)
+        gp.output(ePin, False)
+        gp.output(f1Pin, False)
+        gp.output(f2Pin, True)
 
     elif cam == 2:
         # CAM 2 for A Jumper Setting
-        gp.output(7, True)
-        gp.output(11, False)
-        gp.output(12, True)
+        gp.output(ePin, True)
+        gp.output(f1Pin, False)
+        gp.output(f2Pin, True)
 
     elif cam == 3:
         # CAM 3 for A Jumper Setting
-        gp.output(7, False)
-        gp.output(11, True)
-        gp.output(12, False)
+        gp.output(ePin, False)
+        gp.output(f1Pin, True)
+        gp.output(f2Pin, False)
 
     elif cam == 4:
         # CAM 4 for A Jumper Setting
-        gp.output(7, True)
-        gp.output(11, True)
-        gp.output(12, False)
+        gp.output(ePin, True)
+        gp.output(f1Pin, True)
+        gp.output(f2Pin, False)
 
     cam += 1
     if cam > 4:
