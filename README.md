@@ -5,7 +5,7 @@ IVPORT
 
 ### IVPORT V2 is available at [HERE](http://www.ivmech.com/magaza/ivport-v2-p-107).
 
-### IVPORT CODE EXAMPLES are available at [HERE](https://github.com/ivmech/ivport-v2).
+### IVPORT V2 CODE EXAMPLES are available at [HERE](https://github.com/ivmech/ivport-v2).
 
 Raspberry Pi Camera Module Multiplexer by [Ivmech Mechatronics](http://www.ivmech.com)
 
